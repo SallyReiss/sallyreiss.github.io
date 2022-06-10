@@ -1,0 +1,25 @@
+.nav{font-family: 'Roboto'; display: flex;  background-color: #28A745;
+    justify-content: center;
+    align-items: center;
+  }
+p{font-family: 'Roboto';}
+h5{font-family: 'Roboto';}
+li{align-items: center}
+.card-text{color: #707070;}
+.button {color: #0000;
+    background-color: #28A745}
+
+section {font-family:'Roboto'; background-color:  #28A745;width: 300px; height: 150px; display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+h3{font-family: Roboto; color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{ display: flex;
+    justify-content: center;
+    align-items: center;
+  }
