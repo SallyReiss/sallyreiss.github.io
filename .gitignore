@@ -1,1 +1,243 @@
 Desafio1 - Sally Reiss/
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTAFOLIO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Oswald:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="/assets/Styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container px-4 px-sm-0">
+        <a class="navbar-brand" href="#">SR</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Sobre-Mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="header-section">
+      <div class="text-center text-white">
+        <h1>PORTAFOLIO</h1>
+        <hr class="linea bg-white mx-auto" />
+        <h1 class="display-4">Sally Reiss</h1>
+      </div>
+    </header>
+
+    <section class="pt-5 d-none d-sm-block container" id="Sobre-Mi">
+      <div>
+        <h4 class="text-center">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+          cupiditate eum voluptate aut quis dignissimos fuga beatae, in suscipit
+        </h4>
+        <hr class="bg-dark mx-auto" />
+      </div>
+
+      <div class="row pt-3">
+        <div class="col-6">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            blanditiis possimus ducimus dolorem quis placeat nulla perferendis
+            error quisquam similique, soluta numquam asperiores, impedit,
+            reiciendis repudiandae officia voluptas beatae rerum. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Fugiat rerum,
+            voluptatem iste animi incidunt inventore quae consectetur deleniti
+            aliquid aspernatur odit necessitatibus commodi! Eos sequi ratione
+            adipisci omnis debitis vel. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Numquam maxime molestiae temporibus pariatur earum
+            et voluptates fugit accusamus quam, dolores voluptatem. Perspiciatis
+            sapiente, sed necessitatibus nam modi quaerat illum sit.
+          </p>
+        </div>
+        <div class="col-6">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            blanditiis possimus ducimus dolorem quis placeat nulla perferendis
+            error quisquam similique, soluta numquam asperiores, impedit,
+            reiciendis repudiandae officia voluptas beatae rerum. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Fugiat rerum,
+            voluptatem iste animi incidunt inventore quae consectetur deleniti
+            aliquid aspernatur odit necessitatibus commodi! Eos sequi ratione
+            adipisci omnis debitis vel. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Numquam maxime molestiae temporibus pariatur earum
+            et voluptates fugit accusamus quam, dolores voluptatem. Perspiciatis
+            sapiente, sed necessitatibus nam modi quaerat illum sit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Experiencia" class="container text-center py-5">
+      <div>
+        <h1 class="fw-bold text-uppercase">mi experiencia</h1>
+        <hr class="mx-auto" />
+      </div>
+
+      <div class="row pt-3">
+        <article
+          class="col-12 col-sm-6"
+        >
+          
+          <i class="far fa-eye fa-10x"></i>
+          <h4 class="fw-bold mt-3">Socióloga</h4>
+          <h4>2013 - 2018</h4>
+        </article>
+        <article class="col-12 col-sm-6">
+          
+          <i class="fab fa-brands fa-js fa-10x"></i>
+          <h4 class="fw-bold mt-3">Desarrolladora JavaScript</h4>
+          <h4>2022 - </h4>
+        </article>
+      </div>
+    </section>
+
+    <section id="Trabajos" class="container-fluid py-5">
+      <div>
+        <h1 class="fw-bold text-center text-uppercase text-white mt-2">
+          mis últimos trabajos
+        </h1>
+        <hr class="mx-auto bg-white" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/c1.png" class="card-img-top" alt="cv" />
+              <div class="card-body">
+                <h4 class="card-title mb-3"><a href="https://sallyreiss.github.io/Desafio1/Desafio1/CVsally.html">Curriculum Vitae</a></h4>
+                <p class="card-text fw-lighter">
+                  El primer desafío del curso fue un CV usando solo HTML
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 my-3">
+            <div
+              class="card border-0" data-toggle="modal" data-target="#exampleModal">
+              <img src="assets/img/cat.jpg" class="card-img-top" alt="gatos"
+              />
+              <div class="card-body">
+                <h4 class="card-title mb-3"><a href="mascotas.html">Landing Page</a></h4>
+                <p class="card-text fw-lighter">
+                  Uno de mis primeros trabajos en HTML con CSS, una landing page muy básica para una tienda de mascotas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/c3.png" class="card-img-top" alt="iguana"/>
+              <div class="card-body">
+                <h4 class="card-title mb-3"><a href="https://sallyreiss.github.io/desafio3/desafio3/index.html">Iguana Page</a></h4>
+                <p class="card-text fw-lighter">
+                 El tercer desafío trató de posicionamiento de una página de iguanas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/cuppon.png" class="card-img-top" alt="hotel" />
+              <div class="card-body">
+                <h4 class="card-title mb-3"><a href="cuppon.html">Cuppon</a></h4>
+                <p class="card-text fw-lighter">
+                  Aprendiendo a usar BootStrap, página con cards informativos sobre promociones random. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contacto" class="container text-center py-5">
+      <div>
+        <h1 class="fw-bold text-uppercase">Contacto</h1>
+        <hr class="bg-dark mx-auto" />
+      </div>
+
+      <form>
+
+
+        <div class="form-group mb-4">
+            <label class="mb-2">Nombre</label>
+            <input class="form-control" placeholder="Nombre">
+        </div>
+
+        <div class="form-group mb-4">
+            <label class="mb-2">Correo electrónico</label>
+            <input class="form-control" placeholder="Correo electrónico" />
+        </div>
+
+
+        <div class="form-group">
+            <label class="mb-2">Mensaje</label>
+            <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+        </div>
+
+        <div class="my-3 text-end">
+            <button class="btn btn-info text-light">Enviar</button>
+        </div>
+
+
+
+    </form>
+      
+    </section>
+
+    <footer class="text-center text-white py-5" id="Footer">
+      <div class="row container m-auto">
+        <div class="col-12 col-sm-6">
+          <h1 class="fw-bold">Sally Reiss</h1>
+        </div>
+        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+          <i class="fab fa-github-square fa-3x mx-2"></i>
+          <i class="fab fa-linkedin fa-3x mx-2"></i>
+          <i class="fab fa-twitter-square fa-3x mx-2"></i>
+          <i class="fab fa-facebook-square fa-3x mx-2"></i>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

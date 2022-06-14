@@ -5,7 +5,7 @@ a {
   /* Navbar */
   
   .navbar {
-    background-color: #8B0000;
+    background-color: #e365b5;
     position: fixed;
     z-index: 1;
     width: 100vw;
@@ -21,7 +21,7 @@ a {
   
   #header-section {
     height: 100vh;
-    background: url("../img/perfil.JPG");
+    background: url(/assets/img/Escáner_20220109\ \(9\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -77,7 +77,7 @@ a {
   /* Mi Experiencia */
   
   #Experiencia i {
-    color: #8B0000;
+    color: #cf52aa;
   }
   
   #Experiencia div hr {
@@ -103,7 +103,7 @@ a {
   /* Mis últimos trabajos */
   
   #Trabajos {
-    background-color: #8B0000;
+    background-color: #cf52aa;
   }
   
   #Trabajos h1 {
@@ -134,7 +134,7 @@ a {
   /*  Footer */
   
   #Footer {
-    background-color: #8B0000;
+    background-color: #cf52aa;
   }
   
   #Footer h1 {
